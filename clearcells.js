@@ -2,7 +2,7 @@ function clearCells() {
   findAdvisor();// puts the adviser's on duty name on the sheet
   var ss = SpreadsheetApp.getActiveSpreadsheet();
   var sheet = ss.getSheets()[0];
-  //var dataSs = SpreadsheetApp.openById("1AVjU82tSTUzOFphL6YfIZ1OhZORQT7JCrcQQp8TqD");
+  
   //var dataSheet = dataSs.getSheets()[0];
   var data = sheet.getDataRange().getValues();
   //Before changes are made record the details on another sheet
